@@ -9,7 +9,7 @@ const _Name = "Mateus 'Matt' Schiavi";
 document.querySelector("#name").textContent = _Name;
 
 // Step 3: declare and instantiate a variable to hold the current year
-const _currentyear = MMXXIII;
+const _currentyear = 2023;
 
 // Step 4: place the value of the current year variable into the HTML file
 document.querySelector("#year").textContent = _currentyear;
