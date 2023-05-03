@@ -29,13 +29,13 @@ const _myFoods = ["Ramen", "Brazilian Food", "Creamy Chocolate", "Chicken with p
 // Step 2: place the values of the favorite foods variable into the HTML file
 document.querySelector("#food").textContent = _myFoods;
 // Step 3: declare and instantiate a variable to hold another favorite food
-let _Food = "Spicy beans";
+const  _Food = "Spicy beans";
 // Step 4: add the variable holding another favorite food to the favorite food array
 favFoods.push(_Food);
 // Step 5: repeat Step 2
 document.querySelector("#food").textContent = _myFoods;
 // Step 6: remove the first element in the favorite foods array
-_myFoods.shift();
+_myFoods.slice(1);
 // Step 7: repeat Step 2
 document.querySelector("#food").textContent = _myFoods;
 // Step 8: remove the last element in the favorite foods array
