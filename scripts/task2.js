@@ -39,6 +39,6 @@ _myFoods.shift();
 // Step 7: repeat Step 2
 document.querySelector("#food").textContent = _myFoods;
 // Step 8: remove the last element in the favorite foods array
-_myFoods.pop();
+//_myFoods.pop();
 // Step 7: repeat Step 2
 document.querySelector("#food").textContent = _myFoods;
