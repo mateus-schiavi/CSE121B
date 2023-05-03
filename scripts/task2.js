@@ -35,7 +35,7 @@ favFoods.push(_Food);
 // Step 5: repeat Step 2
 document.querySelector("#food").textContent = _myFoods;
 // Step 6: remove the first element in the favorite foods array
-favFoods.splice(0, 1);
+favFoods.shift();
 // Step 7: repeat Step 2
 document.querySelector("#food").textContent = _myFoods;
 // Step 8: remove the last element in the favorite foods array
