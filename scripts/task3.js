@@ -64,14 +64,14 @@ let _date = new Date();
 let _year;
 
 // Step 3: Using the variable declared in Step 1, call the built-in getFullYear() method/function and assign it to the variable declared in Step 2
-currentYear = currentDate.getFullYear();
+_year = _date.getFullYear();
 // Step 4: Assign the current year variable to an HTML form element with an ID of year
 document.querySelector('#year').textContent = _year;
 
 /* ARRAY METHODS */
 
 // Step 1: Declare and instantiate an array variable to hold the numbers 1 through 25
-let _nums = Array.from({ length: 25 }, (_, i) => i + 1);
+let numbers = Array.from({ length: 25 }, (_, i) => i + 1);
 
 // Step 2: Assign the value of the array variable to the HTML element with an ID of "array"
 document.querySelector('#array').innerHTML = numbers;
