@@ -74,7 +74,7 @@ document.querySelector('#year').textContent = _year;
 let _nums = Array.from({ length: 25 }, (_, i) => i + 1);
 
 // Step 2: Assign the value of the array variable to the HTML element with an ID of "array"
-document.querySelector('#array').innerHTML = numbers;
+document.querySelector('#array').innerHTML = _nums;
 
 // Step 3: Use the filter array method to find all of the odd numbers of the array variable and assign the reult to the HTML element with an ID of "odds" ( hint: % (modulus operartor) )
 document.querySelector('#odds').innerHTML = _nums.filter(number => {
