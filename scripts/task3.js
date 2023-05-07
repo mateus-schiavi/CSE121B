@@ -25,8 +25,8 @@ const subtract = function(a, b) {
 const subtractNumbers = function() {
     let minuend = parseInt(document.getElementById('minuend').value);
     let subtrahend = parseInt(document.getElementById('subtrahend').value);
-    let result = subtract(minuend, subtrahend);
-    document.querySelector('#difference').value = result;
+    let finalNumber = subtract(minuend, subtrahend);
+    document.querySelector('#difference').value = finalNumber;
 }
 document.querySelector('#subtractNumbers').addEventListener('click', subtractNumbers);
 
@@ -36,8 +36,8 @@ let multiply = (number1, number2) => number1 * number2;
 let multiplyNumbers = () => {
     let factor1 = parseInt(document.querySelector('#factor1').value);
     let factor2 = parseInt(document.querySelector('#factor2').value);
-    let result = multiply(factor1, factor2);
-    document.querySelector('#product').value = result;
+    let finalNumber = multiply(factor1, factor2);
+    document.querySelector('#product').value = finalNumber;
 }
 document.querySelector('#multiplyNumbers').addEventListener('click', multiplyNumbers);
 
@@ -47,8 +47,8 @@ let divide = (number1, number2) => number1 / number2;
 let divideNumbers = () => {
     let dividend = parseInt(document.querySelector('#dividend').value);
     let divisor = parseInt(document.querySelector('#divisor').value);
-    let reuslt = divide(dividend, divisor);
-    document.querySelector('#quotient').value = reuslt;
+    let finalNumber = divide(dividend, divisor);
+    document.querySelector('#quotient').value = finalNumber;
 }
 document.querySelector('#divideNumbers').addEventListener('click', divideNumbers);
 
