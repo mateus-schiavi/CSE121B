@@ -11,9 +11,9 @@ function add(number1, number2) {
 function addNumbers() {
     let addend1 = parseInt(document.querySelector('#addend1').value);
     let addend2 = parseInt(document.querySelector('#addend2').value);
-    let score = add(addend1, addend2);
+    let result = add(addend1, addend2);
     // Step 4: Assign the return value to an HTML form element with an ID of sum
-    document.querySelector('#sum').value = score;
+    document.querySelector('#sum').value = result;
 }
 // Step 5: Add a "click" event listener to the HTML button with an ID of addNumbers that calls the addNumbers function
 document.querySelector('#addNumbers').addEventListener('click', addNumbers);
@@ -25,8 +25,8 @@ const subtract = function(a, b) {
 const subtractNumbers = function() {
     let minuend = parseInt(document.getElementById('minuend').value);
     let subtrahend = parseInt(document.getElementById('subtrahend').value);
-    let score = subtract(minuend, subtrahend);
-    document.querySelector('#difference').value = score;
+    let result = subtract(minuend, subtrahend);
+    document.querySelector('#difference').value = result;
 }
 document.querySelector('#subtractNumbers').addEventListener('click', subtractNumbers);
 
@@ -36,8 +36,8 @@ let multiply = (number1, number2) => number1 * number2;
 let multiplyNumbers = () => {
     let factor1 = parseInt(document.querySelector('#factor1').value);
     let factor2 = parseInt(document.querySelector('#factor2').value);
-    let score = multiply(factor1, factor2);
-    document.querySelector('#product').value = score;
+    let result = multiply(factor1, factor2);
+    document.querySelector('#product').value = result;
 }
 document.querySelector('#multiplyNumbers').addEventListener('click', multiplyNumbers);
 
@@ -47,8 +47,8 @@ let divide = (number1, number2) => number1 / number2;
 let divideNumbers = () => {
     let dividend = parseInt(document.querySelector('#dividend').value);
     let divisor = parseInt(document.querySelector('#divisor').value);
-    let score = divide(dividend, divisor);
-    document.querySelector('#quotient').value = score;
+    let reuslt = divide(dividend, divisor);
+    document.querySelector('#quotient').value = reuslt;
 }
 document.querySelector('#divideNumbers').addEventListener('click', divideNumbers);
 
@@ -58,15 +58,15 @@ document.querySelector('#divideNumbers').addEventListener('click', divideNumbers
 /* BUILT-IN METHODS */
 
 // Step 1: Declare and instantiate a variable of type Date to hold the current date
-let _date = new Date();
+let currentDate = new Date();
 
 // Step 2: Declare a variable to hold the current year
-let _year;
+let currentYear;
 
 // Step 3: Using the variable declared in Step 1, call the built-in getFullYear() method/function and assign it to the variable declared in Step 2
-_year = currentDate.getFullYear();
+currentYear = currentDate.getFullYear();
 // Step 4: Assign the current year variable to an HTML form element with an ID of year
-document.querySelector('#year').textContent = _year;
+document.querySelector('#year').textContent = currentYear;
 
 /* ARRAY METHODS */
 
