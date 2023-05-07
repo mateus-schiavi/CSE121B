@@ -71,7 +71,7 @@ document.querySelector('#year').textContent = _year;
 /* ARRAY METHODS */
 
 // Step 1: Declare and instantiate an array variable to hold the numbers 1 through 25
-let _nums = Array.from({ length: 25 }, (_nums, i) => i + 1);
+let _nums = Array.from({ length: 25 }, (_, i) => i + 1);
 
 // Step 2: Assign the value of the array variable to the HTML element with an ID of "array"
 document.querySelector('#array').innerHTML = numbers;
