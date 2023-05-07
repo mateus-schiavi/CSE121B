@@ -74,23 +74,23 @@ document.querySelector('#year').textContent = _year;
 let _number = Array.from({ length: 25 }, (_, i) => i + 1);
 
 // Step 2: Assign the value of the array variable to the HTML element with an ID of "array"
-document.querySelector('#array').innerHTML = _number;
+document.querySelector('#array').innerHTML = numbers;
 
 // Step 3: Use the filter array method to find all of the odd numbers of the array variable and assign the reult to the HTML element with an ID of "odds" ( hint: % (modulus operartor) )
-document.querySelector('#odds').innerHTML = _number.filter(number => {
+document.querySelector('#odds').innerHTML = numbers.filter(number => {
     return number % 2 !== 0;
 });
 
 // Step 4: Use the filter array method to find all of the even numbers of the array variable and assign the result to the HTML element with an ID of "evens"
-document.querySelector('#evens').innerHTML = _number.filter(number => {
+document.querySelector('#evens').innerHTML = numbers.filter(number => {
     return number % 2 == 0;
 });
 
 // Step 5: Use the reduce array method to sum the array variable elements and assign the result to the HTML element with an ID of "sumOfArray"
-document.querySelector('#sumOfArray').innerHTML = _number.reduce((a, b) => a + b, 0);
+document.querySelector('#sumOfArray').innerHTML = numbers.reduce((x, y) => x + y, 0);
 
 // Step 6: Use the map array method to multiple each element in the array variable by 2 and assign the result to the HTML element with an ID of "multiplied"
-document.querySelector('#multiplied').innerHTML = _number.map(a => a * 2)
+document.querySelector('#multiplied').innerHTML = numbers.map(x => x * 2)
 
 // Step 7: Use the map and reduce array methods to sum the array elements after multiplying each element by two.  Assign the result to the HTML element with an ID of "sumOfMultiplied"
-document.querySelector('#sumOfMultiplied').innerHTML = _number.map(a => a * 2).reduce((a, b) => a + b, 0)
+document.querySelector('#sumOfMultiplied').innerHTML = numbers.map(x => x * 2).reduce((x, y) => x + y, 0)
