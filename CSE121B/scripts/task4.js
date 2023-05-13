@@ -3,16 +3,17 @@
 /* DATA */
 
 // Step 1: Declare a new variable to hold information about yourself
-let myLife = {}
+let myLife = {
 // Step 2: Inside of the object, add a property named name with a value of your name as a string
-myLife._name = 'Mateus Schiavi'
+_name: 'Mateus Schiavi',
 // Step 3: Add another property named photo with a value of the image path and name (used in Task 2) as a string
-myLife._photo = 'Me.png'
+_photo: 'Me.png',
 // Step 4: Add another property named favoriteFoods with a value of an array of your favorite foods as strings ( hint: [] )
 
-myLife._foods = ["Ramen","Brazilian Food","Spicy Beans","Creamy Chocolate"]
+_foods: ["Ramen","Brazilian Food","Spicy Beans","Creamy Chocolate"],
 // Step 5: Add another property named hobbies with a value of an array of your hobbies as strings
-myLife._hobbies = ["Genshin Impact","Programming","Reading", "Writing","Listen to Music"]
+_hobbies: ["Genshin Impact","Programming","Reading", "Writing","Listen to Music"]
+};
 // Step 6: Add another property named placesLived with a value of an empty array
 _placesLived: []
 // Step 7: Inside of the empty array above, add a new object with two properties: place and length and values of an empty string
