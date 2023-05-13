@@ -10,7 +10,7 @@
 // Step 6: Add another property named placesLived with a value of an empty array
 // Step 7: Inside of the empty array above, add a new object with two properties: place and length and values of an empty string
 // Step 8: For each property, add appropriate values as strings
-// Step 9: Add additional objects with the same properties for each place you've lived
+// Step 9: Add additional objects with the same properties for each place you"ve lived
 /* OUTPUT */
 // Step 1: Assign the value of the name property (of the object declared above) to the HTML <span> element with an ID of name
 // Step 2: Assign the value of the photo property as the src attribute of the HTML <img> element with an ID of photo
@@ -24,52 +24,52 @@
 // - Create an HTML <dd> element and put its length property in the <dd> element
 // Step 9: Append the HTML <dt> and <dd> elements created above to the HTML <dl> element with an ID of places-lived
 let myBiography = {
-    _name: 'Mateus Schiavi',
-    _photo: 'images/Me.jpg',
-    _favFoods: ['Brazilian Food','Creamy Chocolate','Spicy Beans'],
+    _name: "Mateus Schiavi",
+    _photo: "images/Me.jpg",
+    _favFoods: ["Brazilian Food","Creamy Chocolate","Spicy Beans"],
 
-    _hobbies: ['Genshin Impact','FIFA','Writing','Reading','Studying']
+    _hobbies: ["Genshin Impact","FIFA","Writing","Reading","Studying"]
 };
 
 myBiography.placesLived = [
     {
-    place: 'Suzano, BR',
-    length: '25 years'
+    place: "Suzano, BR",
+    length: "25 years"
     },
     {
-    place:'Pernambuco, BR',
-    length: '4 months'
+    place:"Pernambuco, BR",
+    length: "4 months"
     }
 ]
 
-document.querySelector('#name').textContent = myBiography._name;
+document.querySelector("#name").textContent = myBiography._name;
 
-document.querySelector('#photo').setAttribute('src', myBiography._photo);
+document.querySelector("#photo").setAttribute("src", myBiography._photo);
 
-document.querySelector('#photo').setAttribute('alt', myBiography._name);
+document.querySelector("#photo").setAttribute("alt", myBiography._name);
 
 myBiography._favFoods.forEach((food) => {
-let favFoodGroup = document.createElement('li');
+let favFoodGroup = document.createElement("li");
 favFoodGroup.textContent = food;
 
-document.querySelector('#favorite-foods').appendChild(favFoodGroup);
+document.querySelector("#favorite-foods").appendChild(favFoodGroup);
 });
 
 myBiography._hobbies.forEach((hobby) => {
-let hobbyGrp = document.createElement('li');
+let hobbyGrp = document.createElement("li");
 hobbyGrp.textContent = hobby;
 
-document.querySelector('#hobbies').appendChild(hobbyGrp);
+document.querySelector("#hobbies").appendChild(hobbyGrp);
 });
 
 myBiography.placesLived.forEach((placeLived) => {
-let placeLivedGrp = document.createElement('dt');
+let placeLivedGrp = document.createElement("dt");
 placeLivedGrp.textContent = placeLived.place;
 
-let placeLivedLength = document.createElement('dd');
+let placeLivedLength = document.createElement("dd");
 placeLivedLength.textContent = placeLived.length;
 
 
-document.querySelector('#places-lived').appendChild(placeLivedGrp);
-document.querySelector('#places-lived').appendChild(placeLivedLength);
+document.querySelector("#places-lived").appendChild(placeLivedGrp);
+document.querySelector("#places-lived").appendChild(placeLivedLength);
 });
