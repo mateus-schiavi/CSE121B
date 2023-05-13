@@ -17,7 +17,7 @@ _hobbies: ["Genshin Impact","Programming","Reading", "Writing","Listen to Music"
 // Step 6: Add another property named placesLived with a value of an empty array
 _placesLived: []
 // Step 7: Inside of the empty array above, add a new object with two properties: place and length and values of an empty string
-myLife._placesLived = [
+_placesLived = [
     {
         place:"Pernambuco, BR",
         length: 4
