@@ -37,8 +37,8 @@ myBiography.placesLived = [
     length: '25 years'
     },
     {
-        place:'Pernambuco, BR',
-        length: '4 months'
+    place:'Pernambuco, BR',
+    length: '4 months'
     }
 ]
 
