@@ -25,7 +25,7 @@
 // Step 9: Append the HTML <dt> and <dd> elements created above to the HTML <dl> element with an ID of places-lived
 let myBiography = {
     _name: 'Mateus Schiavi',
-    _photo: 'Me.png',
+    _photo: 'Me.jpg',
     _favFoods: [
         'Brazilian Food',
         'Creamy Chocolate',
