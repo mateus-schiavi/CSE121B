@@ -26,19 +26,9 @@
 let myBiography = {
     _name: 'Mateus Schiavi',
     _photo: 'images/Me.jpg',
-    _favFoods: [
-        'Brazilian Food',
-        'Creamy Chocolate',
-        'Spicy Beans',
-    ],
+    _favFoods: ['Brazilian Food','Creamy Chocolate','Spicy Beans'],
 
-    _hobbies: [
-        'Genshin Impact',
-        'FIFA',
-        'Writing',
-        'Reading',
-        'Studying'
-    ]
+    _hobbies: ['Genshin Impact','FIFA','Writing','Reading','Studying']
 };
 
 myBiography.placesLived = [
