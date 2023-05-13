@@ -35,7 +35,7 @@ myLife._placesLived = [
 /* OUTPUT */
 
 // Step 1: Assign the value of the name property (of the object declared above) to the HTML <span> element with an ID of name
-document.querySelector("#name").querySelector = myl._name;
+document.querySelector("#name").querySelector = myLife._name;
 // Step 2: Assign the value of the photo property as the src attribute of the HTML <img> element with an ID of photo
 _photo = document.querySelector("#photo")
 _photo.setAttribute('src',`./images/${myLife._photo}`);
