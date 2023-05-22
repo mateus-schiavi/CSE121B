@@ -1,0 +1,51 @@
+[
+    {
+        "insectName": "Bee",
+        "Scientific Name": "Anthophila",
+        "Speed": "until 20 miles/h",
+        "imageUrl": "https://ideas.ted.com/wp-content/uploads/sites/3/2021/03/FINAL_Bees.jpg"
+    },
+    {
+        "InsectName":"Butterfly",
+        "ScientificName":"Lepidoptera",
+        "Speed":"until 13 miles/h",
+        "imageUrl": "https://www.gardeningknowhow.com/wp-content/uploads/2020/02/butterfly.jpg"
+    },
+    {
+        "InsectName":"Ant",
+        "ScientificName":"Formicidae",
+        "Speed":"until 2 miles/h",
+        "Characteristics": "",
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/28024766/original.jpg"
+    },
+    {
+        "InsectName":"Ladybug",
+        "ScientificName":"Coccinellidae",
+        "Speed":"until 40 miles/h",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Coccinella_magnifica01.jpg"
+    },
+    {
+        "InsectName": "Beetle",
+        "ScientificName":"Coleoptera",
+        "Speed":"until  6 miles/h",
+        "imageUrl": "https://im.indiatimes.in/content/2022/Mar/shutterstock_449232196_6221ed996c904.jpg?w=725&h=483"
+    },
+    {
+        "InsectName": "Wasp",
+        "ScientificName":"Coleoptera",
+        "Speed":"until 25 miles/h",
+        "imageUrl": "https://cdn.britannica.com/29/124729-004-382DFCB6/Paper-wasp.jpg"
+    },
+    {
+        "InsectName": "Grasshopper",
+        "ScientificName":"Caelifera",
+        "Speed":"until 8 miles/h",
+        "imageUrl": "https://animalcorner.org/wp-content/uploads/2015/02/grasshopper1-1.jpg"
+    },
+    {
+        "InsectName": "Caterpillar",
+        "ScientificName":"Lepidoptera",
+        "Speed":"very slow",
+        "imageUrl": "https://a-z-animals.com/media/2022/08/shutterstock_1699161862-1024x791.jpg"
+    }
+]
