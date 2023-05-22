@@ -3,56 +3,56 @@
         "insectName": "Bee",
         "Scientific Name": "Anthophila",
         "Speed": "until 20 miles/h",
-        "Characteristics": "They belong to the Apidae Family. They usually don't exceed three centimeters in length; and the body is divided into head,               thorax and abdomen. They also have compound eyes, two pairs of wings, three pairs of legs and one pair of antennae."
+        "Characteristics": "",
         "imageUrl": "https://ideas.ted.com/wp-content/uploads/sites/3/2021/03/FINAL_Bees.jpg"
     },
     {
         "InsectName":"Butterfly",
         "ScientificName":"Lepidoptera",
         "Speed":"until 13 miles/h",
-        "Characteristics": "Butterflies are flying insects with large scaly wings. Like all insects, they have six jointed legs and three body parts: the              head, the thorax and the abdomen. The wings are attached to the thorax and they also have a pair of antennae, compound eyes and an exoskeleton." 
-         "imageUrl": "https://www.gardeningknowhow.com/wp-content/uploads/2020/02/butterfly.jpg"
+        "Characteristics": "",
+        "imageUrl": "https://www.gardeningknowhow.com/wp-content/uploads/2020/02/butterfly.jpg"
     },
     {
         "InsectName":"Ant",
         "ScientificName":"Formicidae",
         "Speed":"until 2 miles/h",
-        "Characteristics": "A pair of elbowed (bent) antennae on the head. A constricted (pinched) area between the thorax and abdomen called the petiole.            The petiole (actually part of the abdomen) has either one or two nodes (bumps). Most ants are workers and do not have wings."
-         "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/28024766/original.jpg"
+        "Characteristics": "",
+        "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/28024766/original.jpg"
     },
     {
         "InsectName":"Ladybug",
         "ScientificName":"Coccinellidae",
         "Speed":"until 40 miles/h",
-        "Characteristics": "Most ladybugs have oval, dome-shaped bodies with six short legs. Depending on the species, they can have spots, stripes, or no            markings at all. Seven-spotted ladybugs are red or orange with three spots on each side and one in the middle. They have a black head with white              patches on either side"
-         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Coccinella_magnifica01.jpg"
+        "Characteristics": "",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Coccinella_magnifica01.jpg"
     },
     {
         "InsectName": "Beetle",
         "ScientificName":"Coleoptera",
         "Speed":"until  6 miles/h",
-        "Characteristics":"Their bodies tend to be very solid and tough. They have chewing mouthparts and often have powerful jaws. Adult beetles have                modified wings: the first pair of wings is small and very hard, and acts as a protective covering for the second pair of wings. Many beetles can fly          with their second pair of wings."  
+        "Characteristics":"",
         "imageUrl": "https://im.indiatimes.in/content/2022/Mar/shutterstock_449232196_6221ed996c904.jpg?w=725&h=483"
     },
     {
         "InsectName": "Wasp",
         "ScientificName":"Coleoptera",
         "Speed":"until 25 miles/h",
-        "Characteristics":"Wasps are distinguishable from bees by their pointed lower abdomens and the narrow waist, called a petiole, that separates the             abdomen from the thorax. They come in every color imaginable, from the familiar yellow to brown, metallic blue, and bright red."  
+        "Characteristics":"",
         "imageUrl": "https://cdn.britannica.com/29/124729-004-382DFCB6/Paper-wasp.jpg"
     },
     {
         "InsectName": "Grasshopper",
         "ScientificName":"Caelifera",
         "Speed":"until 8 miles/h",
-        "Characteristics":"Ringlike segments, jointed appendages, exoskeleton. Three body regions, three pairs legs, one pair antennae, tracheal system,              usually two pair wings. Forewings leathery, hindwings membranous, chewing mouthparts, hindlegs enlarged for jumping, simple metamorphosis."  
+        "Characteristics":"",
         "imageUrl": "https://animalcorner.org/wp-content/uploads/2015/02/grasshopper1-1.jpg"
     },
     {
         "InsectName": "Caterpillar",
         "ScientificName":"Lepidoptera",
         "Speed":"very slow",
-        "Characteristics":"Caterpillars are insects, just like their parent butterflies or moths. They have six proper legs, like all insects, but also up            to five pairs of stumpy prolegs with little hooks that help them to hang onto things, and to move in a wave-like motion. Caterpillars use small              hooks on their feet to climb plants."  
+        "Characteristics":"",
         "imageUrl": "https://a-z-animals.com/media/2022/08/shutterstock_1699161862-1024x791.jpg"
     }
 ]
